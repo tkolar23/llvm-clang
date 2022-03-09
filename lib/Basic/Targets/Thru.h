@@ -30,18 +30,18 @@ public:
     // Description string has to be kept in sync with backend string at
     // llvm/lib/Target/Thru/ThruTargetMachine.cpp
     resetDataLayout("e"
-                    // ELF name mangling
-                    "-m:e"
-                    // 32-bit pointers, 32-bit aligned
-                    "-p:32:32"
+                    // 64-bit natural stack alignment
+                    "-S64"
+                    // 64-bit pointers, 64-bit aligned
+                    "-p:64:64"
                     // 64-bit integers, 64-bit aligned
                     "-i64:64"
-                    // 32-bit native integer width i.e register are 32-bit
-                    "-n32"
-                    // 128-bit natural stack alignment
-                    "-S128"
+                    // ELF name mangling
+                    "-m:e"
+                    // 64-bit native integer width i.e register are 64-bit
+                    "-n64"
     );
-    SuitableAlign = 128;
+    SuitableAlign = 64;
     WCharType = SignedInt;
     WIntType = UnsignedInt;
     IntPtrType = SignedInt;

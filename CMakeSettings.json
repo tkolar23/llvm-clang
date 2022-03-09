@@ -13,27 +13,27 @@
       "variables": [
         {
           "name": "LLVM_DIR",
-          "value": "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Debug\\lib\\cmake\\llvm",
+          "value": "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Ninja\\lib\\cmake\\llvm",
           "type": "PATH"
         },
         {
           "name": "LLVM_LIBRARY_DIR",
-          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Debug/lib",
+          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Ninja/lib",
           "type": "PATH"
         },
         {
           "name": "LLVM_MAIN_INCLUDE_DIR",
-          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Debug/include",
+          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Ninja/include",
           "type": "PATH"
         },
         {
           "name": "LLVM_TABLEGEN_EXE",
-          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Debug/bin/llvm-tblgen.exe",
+          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Ninja/bin/llvm-tblgen.exe",
           "type": "FILEPATH"
         },
         {
           "name": "LLVM_TOOLS_BINARY_DIR",
-          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Debug/bin",
+          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Ninja/bin",
           "type": "PATH"
         }
       ]
