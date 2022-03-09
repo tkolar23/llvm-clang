@@ -1,7 +1,7 @@
 ﻿{
   "configurations": [
     {
-      "name": "Ninja-Release",
+      "name": "Ninja",
       "generator": "Ninja",
       "configurationType": "Debug",
       "inheritEnvironments": [ "msvc_x86_x64" ],
