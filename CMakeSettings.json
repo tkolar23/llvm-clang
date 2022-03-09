@@ -3,13 +3,40 @@
     {
       "name": "Ninja-Release",
       "generator": "Ninja",
-      "configurationType": "Release",
+      "configurationType": "Debug",
       "inheritEnvironments": [ "msvc_x86_x64" ],
       "buildRoot": "${projectDir}\\out\\build\\${name}",
       "installRoot": "${projectDir}\\out\\install\\${name}",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "",
-      "ctestCommandArgs": ""
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "LLVM_DIR",
+          "value": "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Debug\\lib\\cmake\\llvm",
+          "type": "PATH"
+        },
+        {
+          "name": "LLVM_LIBRARY_DIR",
+          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Debug/lib",
+          "type": "PATH"
+        },
+        {
+          "name": "LLVM_MAIN_INCLUDE_DIR",
+          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Debug/include",
+          "type": "PATH"
+        },
+        {
+          "name": "LLVM_TABLEGEN_EXE",
+          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Debug/bin/llvm-tblgen.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "LLVM_TOOLS_BINARY_DIR",
+          "value": "C:/Users/Tom/projects/llvm-project/llvm/out/install/Debug/bin",
+          "type": "PATH"
+        }
+      ]
     }
   ]
 }

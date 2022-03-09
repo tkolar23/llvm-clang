@@ -1,1 +1,0 @@
-include/clang/AST/AbstractTypeReader.inc: C:/Users/Tom/projects/llvm-project/clang/include\clang/AST/PropertiesBase.td C:/Users/Tom/projects/llvm-project/clang/include\clang/Basic/ASTNode.td C:/Users/Tom/projects/llvm-project/clang/include\clang/Basic/TypeNodes.td
