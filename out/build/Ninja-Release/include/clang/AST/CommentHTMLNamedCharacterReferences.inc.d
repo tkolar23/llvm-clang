@@ -1,0 +1,1 @@
+include/clang/AST/CommentHTMLNamedCharacterReferences.inc:

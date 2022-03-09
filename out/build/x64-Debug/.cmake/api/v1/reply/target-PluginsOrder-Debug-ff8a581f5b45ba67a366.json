@@ -1,0 +1,47 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_llvm_library"
+		],
+		"files" : 
+		[
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake",
+			"examples/PluginsOrder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 825,
+				"parent" : 1
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "Loadable modules"
+	},
+	"id" : "PluginsOrder::@aec2309e6b744a63d3c6",
+	"name" : "PluginsOrder",
+	"paths" : 
+	{
+		"build" : "examples/PluginsOrder",
+		"source" : "examples/PluginsOrder"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

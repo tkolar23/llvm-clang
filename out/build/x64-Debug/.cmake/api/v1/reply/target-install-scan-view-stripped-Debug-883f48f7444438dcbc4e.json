@@ -1,0 +1,92 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_llvm_install_targets",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake",
+			"tools/scan-view/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 736,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 747,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "scan-view::@a25c2f90ca11e462253c"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Component Install Targets (Stripped)"
+	},
+	"id" : "install-scan-view-stripped::@a25c2f90ca11e462253c",
+	"name" : "install-scan-view-stripped",
+	"paths" : 
+	{
+		"build" : "tools/scan-view",
+		"source" : "tools/scan-view"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/tools/scan-view/CMakeFiles/install-scan-view-stripped",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/tools/scan-view/CMakeFiles/install-scan-view-stripped.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

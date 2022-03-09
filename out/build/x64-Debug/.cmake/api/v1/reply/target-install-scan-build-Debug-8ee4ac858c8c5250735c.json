@@ -1,0 +1,92 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_llvm_install_targets",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake",
+			"tools/scan-build/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 728,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 746,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "scan-build::@03dedbba88633c34a37b"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Component Install Targets"
+	},
+	"id" : "install-scan-build::@03dedbba88633c34a37b",
+	"name" : "install-scan-build",
+	"paths" : 
+	{
+		"build" : "tools/scan-build",
+		"source" : "tools/scan-build"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/tools/scan-build/CMakeFiles/install-scan-build",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/tools/scan-build/CMakeFiles/install-scan-build.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

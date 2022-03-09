@@ -1,0 +1,107 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"tools/scan-view/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "scan-view",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"tools/scan-view/bin/scan-view"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "scan-view",
+			"destination" : "share/scan-view",
+			"paths" : 
+			[
+				"tools/scan-view/share/ScanView.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "scan-view",
+			"destination" : "share/scan-view",
+			"paths" : 
+			[
+				"tools/scan-view/share/Reporter.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "scan-view",
+			"destination" : "share/scan-view",
+			"paths" : 
+			[
+				"tools/scan-view/share/startfile.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "scan-view",
+			"destination" : "share/scan-view",
+			"paths" : 
+			[
+				"tools/scan-view/share/bugcatcher.ico"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/scan-view",
+		"source" : "tools/scan-view"
+	}
+}

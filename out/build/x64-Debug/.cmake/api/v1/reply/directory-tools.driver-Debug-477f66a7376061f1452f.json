@@ -1,0 +1,143 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_tool",
+			"llvm_install_symlink",
+			"add_clang_symlink"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddClang.cmake",
+			"tools/driver/CMakeLists.txt",
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 1938,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 1938,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 1938,
+				"parent" : 10
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clang",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/clang.exe"
+			],
+			"targetId" : "clang::@776bc33a40edeb3c1ed7",
+			"targetIndex" : 79,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "clang",
+			"scriptFile" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMInstallSymlink.cmake",
+			"type" : "script"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "clang",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "clang",
+			"scriptFile" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMInstallSymlink.cmake",
+			"type" : "script"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "clang",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "clang",
+			"scriptFile" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMInstallSymlink.cmake",
+			"type" : "script"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "clang",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/driver",
+		"source" : "tools/driver"
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddClang.cmake",
+			"tools/libclang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 192,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "libclang",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libclang.lib"
+			],
+			"targetId" : "libclang::@d8c77ec02cb7418262ac",
+			"targetIndex" : 272,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "libclang",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/libclang.dll"
+			],
+			"targetId" : "libclang::@d8c77ec02cb7418262ac",
+			"targetIndex" : 272,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "libclang-headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"tools/libclang/../../include/clang-c"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/libclang",
+		"source" : "tools/libclang"
+	}
+}

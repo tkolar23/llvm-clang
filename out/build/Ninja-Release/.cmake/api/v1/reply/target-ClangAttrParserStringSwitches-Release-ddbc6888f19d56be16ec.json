@@ -1,0 +1,114 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_public_tablegen_target",
+			"clang_tablegen",
+			"add_custom_command",
+			"tablegen"
+		],
+		"files" : 
+		[
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/TableGen.cmake",
+			"cmake/modules/AddClang.cmake",
+			"include/clang/Parse/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "clang-tblgen::@dca47d54282c16282dfc"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Clang tablegenning"
+	},
+	"id" : "ClangAttrParserStringSwitches::@ffbd728680521c84e319",
+	"name" : "ClangAttrParserStringSwitches",
+	"paths" : 
+	{
+		"build" : "include/clang/Parse",
+		"source" : "include/clang/Parse"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/include/clang/Parse/CMakeFiles/ClangAttrParserStringSwitches",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/include/clang/Parse/CMakeFiles/ClangAttrParserStringSwitches.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/include/clang/Parse/AttrParserStringSwitches.inc.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

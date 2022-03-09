@@ -1,0 +1,386 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:X86",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/clangTooling.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_clang_library",
+			"install",
+			"add_dependencies",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake",
+			"cmake/modules/AddClang.cmake",
+			"lib/Tooling/CMakeLists.txt",
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/HandleLLVMOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 552,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 118,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 683,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 676,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 110,
+				"parent" : 7
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 454,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 443,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 378,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 465,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 377,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 904,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 905,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 906,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 420,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 123,
+				"parent" : 7
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "omp_gen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ClangDriverOptions::@3eb0473943a72ead267b"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangBasic::@7e621cac8c588f7ffb57"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangAST::@c80eb5e9fa4fb9ab07bc"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangLex::@0e998c9fad576c72291e"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangParse::@fa4c3ce477f876cb8957"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangASTMatchers::@279d3a81a13036599e15"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangAnalysis::@a8ea8fd451b56fad3c5d"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangSema::@f38d7dc148d4b2b8fdb2"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangEdit::@b41f47089d9d1d544cd0"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangRewrite::@c10d844429d8679b31f2"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangDriver::@aadc8320e76fd80710e5"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangSerialization::@615434d8f1a937df5f21"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangFrontend::@f3460d83975abd6e94e8"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangToolingCore::@ccb169fe9713570d1abb"
+		},
+		{
+			"id" : "obj.clangTooling::@75186e86fcb49a20063b"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangToolingInclusions::@eb71fd42f4d7f05cc61f"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clangFormat::@5c282c5cb4a59524b57a"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Clang libraries"
+	},
+	"id" : "clangTooling::@75186e86fcb49a20063b",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/Tom/projects/llvm-project/clang/out/install/x64-Debug"
+		}
+	},
+	"name" : "clangTooling",
+	"nameOnDisk" : "clangTooling.lib",
+	"paths" : 
+	{
+		"build" : "lib/Tooling",
+		"source" : "lib/Tooling"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/AllTUsExecution.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/ArgumentsAdjusters.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/CommonOptionsParser.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/CompilationDatabase.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/Execution.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/ExpandResponseFilesCompilationDatabase.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/FileMatchTrie.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/FixIt.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/GuessTargetAndModeCompilationDatabase.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/InterpolatingCompilationDatabase.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/JSONCompilationDatabase.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/Refactoring.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/RefactoringCallbacks.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/StandaloneExecution.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/NodeIntrospection.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Tooling/CMakeFiles/obj.clangTooling.dir/Tooling.cpp.obj",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

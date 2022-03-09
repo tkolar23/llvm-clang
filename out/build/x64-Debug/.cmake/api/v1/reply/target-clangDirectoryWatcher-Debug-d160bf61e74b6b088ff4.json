@@ -1,0 +1,213 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:X86",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/clangDirectoryWatcher.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_clang_library",
+			"install",
+			"add_dependencies",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake",
+			"cmake/modules/AddClang.cmake",
+			"lib/DirectoryWatcher/CMakeLists.txt",
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/HandleLLVMOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 552,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 118,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 683,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 110,
+				"parent" : 6
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 454,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 443,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 378,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 465,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 377,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 904,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 905,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 906,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 420,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 123,
+				"parent" : 6
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "obj.clangDirectoryWatcher::@83b05367adfb314c7d2d"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Clang libraries"
+	},
+	"id" : "clangDirectoryWatcher::@83b05367adfb314c7d2d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/Tom/projects/llvm-project/clang/out/install/x64-Debug"
+		}
+	},
+	"name" : "clangDirectoryWatcher",
+	"nameOnDisk" : "clangDirectoryWatcher.lib",
+	"paths" : 
+	{
+		"build" : "lib/DirectoryWatcher",
+		"source" : "lib/DirectoryWatcher"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/DirectoryScanner.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/windows/DirectoryWatcher-windows.cpp.obj",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

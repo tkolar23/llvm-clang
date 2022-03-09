@@ -1,0 +1,257 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/Headers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 239,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "clang-resource-headers",
+			"destination" : "lib/clang/14.0.0/include",
+			"paths" : 
+			[
+				"lib/Headers/adxintrin.h",
+				"lib/Headers/altivec.h",
+				"lib/Headers/ammintrin.h",
+				"lib/Headers/amxintrin.h",
+				"lib/Headers/arm_acle.h",
+				"lib/Headers/arm_cmse.h",
+				"lib/Headers/armintr.h",
+				"lib/Headers/arm64intr.h",
+				"lib/Headers/avx2intrin.h",
+				"lib/Headers/avx512bf16intrin.h",
+				"lib/Headers/avx512bwintrin.h",
+				"lib/Headers/avx512bitalgintrin.h",
+				"lib/Headers/avx512vlbitalgintrin.h",
+				"lib/Headers/avx512cdintrin.h",
+				"lib/Headers/avx512vpopcntdqintrin.h",
+				"lib/Headers/avx512dqintrin.h",
+				"lib/Headers/avx512erintrin.h",
+				"lib/Headers/avx512fintrin.h",
+				"lib/Headers/avx512fp16intrin.h",
+				"lib/Headers/avx512ifmaintrin.h",
+				"lib/Headers/avx512ifmavlintrin.h",
+				"lib/Headers/avx512pfintrin.h",
+				"lib/Headers/avx512vbmiintrin.h",
+				"lib/Headers/avx512vbmivlintrin.h",
+				"lib/Headers/avx512vbmi2intrin.h",
+				"lib/Headers/avx512vlvbmi2intrin.h",
+				"lib/Headers/avx512vlbf16intrin.h",
+				"lib/Headers/avx512vlbwintrin.h",
+				"lib/Headers/avx512vlcdintrin.h",
+				"lib/Headers/avx512vldqintrin.h",
+				"lib/Headers/avx512vlfp16intrin.h",
+				"lib/Headers/avx512vlintrin.h",
+				"lib/Headers/avx512vp2intersectintrin.h",
+				"lib/Headers/avx512vlvp2intersectintrin.h",
+				"lib/Headers/avx512vpopcntdqvlintrin.h",
+				"lib/Headers/avx512vnniintrin.h",
+				"lib/Headers/avx512vlvnniintrin.h",
+				"lib/Headers/avxintrin.h",
+				"lib/Headers/avxvnniintrin.h",
+				"lib/Headers/bmi2intrin.h",
+				"lib/Headers/bmiintrin.h",
+				"lib/Headers/builtins.h",
+				"lib/Headers/__clang_cuda_builtin_vars.h",
+				"lib/Headers/__clang_cuda_math.h",
+				"lib/Headers/__clang_cuda_cmath.h",
+				"lib/Headers/__clang_cuda_complex_builtins.h",
+				"lib/Headers/__clang_cuda_device_functions.h",
+				"lib/Headers/__clang_cuda_intrinsics.h",
+				"lib/Headers/__clang_cuda_texture_intrinsics.h",
+				"lib/Headers/__clang_cuda_libdevice_declares.h",
+				"lib/Headers/__clang_cuda_math_forward_declares.h",
+				"lib/Headers/__clang_cuda_runtime_wrapper.h",
+				"lib/Headers/__clang_hip_libdevice_declares.h",
+				"lib/Headers/__clang_hip_cmath.h",
+				"lib/Headers/__clang_hip_math.h",
+				"lib/Headers/__clang_hip_runtime_wrapper.h",
+				"lib/Headers/cetintrin.h",
+				"lib/Headers/cet.h",
+				"lib/Headers/cldemoteintrin.h",
+				"lib/Headers/clzerointrin.h",
+				"lib/Headers/crc32intrin.h",
+				"lib/Headers/cpuid.h",
+				"lib/Headers/clflushoptintrin.h",
+				"lib/Headers/clwbintrin.h",
+				"lib/Headers/emmintrin.h",
+				"lib/Headers/enqcmdintrin.h",
+				"lib/Headers/f16cintrin.h",
+				"lib/Headers/float.h",
+				"lib/Headers/fma4intrin.h",
+				"lib/Headers/fmaintrin.h",
+				"lib/Headers/fxsrintrin.h",
+				"lib/Headers/gfniintrin.h",
+				"lib/Headers/hexagon_circ_brev_intrinsics.h",
+				"lib/Headers/hexagon_protos.h",
+				"lib/Headers/hexagon_types.h",
+				"lib/Headers/hvx_hexagon_protos.h",
+				"lib/Headers/hresetintrin.h",
+				"lib/Headers/htmintrin.h",
+				"lib/Headers/htmxlintrin.h",
+				"lib/Headers/ia32intrin.h",
+				"lib/Headers/immintrin.h",
+				"lib/Headers/intrin.h",
+				"lib/Headers/inttypes.h",
+				"lib/Headers/invpcidintrin.h",
+				"lib/Headers/iso646.h",
+				"lib/Headers/keylockerintrin.h",
+				"lib/Headers/limits.h",
+				"lib/Headers/lwpintrin.h",
+				"lib/Headers/lzcntintrin.h",
+				"lib/Headers/mm3dnow.h",
+				"lib/Headers/mmintrin.h",
+				"lib/Headers/mm_malloc.h",
+				"lib/Headers/module.modulemap",
+				"lib/Headers/movdirintrin.h",
+				"lib/Headers/msa.h",
+				"lib/Headers/mwaitxintrin.h",
+				"lib/Headers/nmmintrin.h",
+				"lib/Headers/opencl-c.h",
+				"lib/Headers/opencl-c-base.h",
+				"lib/Headers/pkuintrin.h",
+				"lib/Headers/pmmintrin.h",
+				"lib/Headers/pconfigintrin.h",
+				"lib/Headers/popcntintrin.h",
+				"lib/Headers/prfchwintrin.h",
+				"lib/Headers/ptwriteintrin.h",
+				"lib/Headers/rdseedintrin.h",
+				"lib/Headers/rtmintrin.h",
+				"lib/Headers/serializeintrin.h",
+				"lib/Headers/sgxintrin.h",
+				"lib/Headers/s390intrin.h",
+				"lib/Headers/shaintrin.h",
+				"lib/Headers/smmintrin.h",
+				"lib/Headers/stdalign.h",
+				"lib/Headers/stdarg.h",
+				"lib/Headers/stdatomic.h",
+				"lib/Headers/stdbool.h",
+				"lib/Headers/stddef.h",
+				"lib/Headers/__stddef_max_align_t.h",
+				"lib/Headers/stdint.h",
+				"lib/Headers/stdnoreturn.h",
+				"lib/Headers/tbmintrin.h",
+				"lib/Headers/tgmath.h",
+				"lib/Headers/tmmintrin.h",
+				"lib/Headers/tsxldtrkintrin.h",
+				"lib/Headers/uintrintrin.h",
+				"lib/Headers/unwind.h",
+				"lib/Headers/vadefs.h",
+				"lib/Headers/vaesintrin.h",
+				"lib/Headers/varargs.h",
+				"lib/Headers/vecintrin.h",
+				"lib/Headers/vpclmulqdqintrin.h",
+				"lib/Headers/waitpkgintrin.h",
+				"lib/Headers/wasm_simd128.h",
+				"lib/Headers/wbnoinvdintrin.h",
+				"lib/Headers/wmmintrin.h",
+				"lib/Headers/__wmmintrin_aes.h",
+				"lib/Headers/__wmmintrin_pclmul.h",
+				"lib/Headers/x86gprintrin.h",
+				"lib/Headers/x86intrin.h",
+				"lib/Headers/xmmintrin.h",
+				"lib/Headers/xopintrin.h",
+				"lib/Headers/xsavecintrin.h",
+				"lib/Headers/xsaveintrin.h",
+				"lib/Headers/xsaveoptintrin.h",
+				"lib/Headers/xsavesintrin.h",
+				"lib/Headers/xtestintrin.h",
+				"out/build/Ninja-Release/lib/Headers/arm_neon.h",
+				"out/build/Ninja-Release/lib/Headers/arm_fp16.h",
+				"out/build/Ninja-Release/lib/Headers/arm_sve.h",
+				"out/build/Ninja-Release/lib/Headers/arm_bf16.h",
+				"out/build/Ninja-Release/lib/Headers/arm_mve.h",
+				"out/build/Ninja-Release/lib/Headers/arm_cde.h",
+				"out/build/Ninja-Release/lib/Headers/riscv_vector.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "clang-resource-headers",
+			"destination" : "lib/clang/14.0.0/include/cuda_wrappers",
+			"paths" : 
+			[
+				"lib/Headers/cuda_wrappers/algorithm",
+				"lib/Headers/cuda_wrappers/complex",
+				"lib/Headers/cuda_wrappers/new"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "clang-resource-headers",
+			"destination" : "lib/clang/14.0.0/include/ppc_wrappers",
+			"paths" : 
+			[
+				"lib/Headers/ppc_wrappers/mmintrin.h",
+				"lib/Headers/ppc_wrappers/xmmintrin.h",
+				"lib/Headers/ppc_wrappers/mm_malloc.h",
+				"lib/Headers/ppc_wrappers/emmintrin.h",
+				"lib/Headers/ppc_wrappers/pmmintrin.h",
+				"lib/Headers/ppc_wrappers/tmmintrin.h",
+				"lib/Headers/ppc_wrappers/smmintrin.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "clang-resource-headers",
+			"destination" : "lib/clang/14.0.0/include/openmp_wrappers",
+			"paths" : 
+			[
+				"lib/Headers/openmp_wrappers/math.h",
+				"lib/Headers/openmp_wrappers/cmath",
+				"lib/Headers/openmp_wrappers/complex.h",
+				"lib/Headers/openmp_wrappers/complex",
+				"lib/Headers/openmp_wrappers/__clang_openmp_device_functions.h",
+				"lib/Headers/openmp_wrappers/complex_cmath.h",
+				"lib/Headers/openmp_wrappers/new"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/Headers",
+		"source" : "lib/Headers"
+	}
+}

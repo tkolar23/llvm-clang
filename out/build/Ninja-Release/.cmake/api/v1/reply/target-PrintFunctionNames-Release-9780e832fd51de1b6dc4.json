@@ -1,0 +1,47 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_llvm_library"
+		],
+		"files" : 
+		[
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake",
+			"examples/PrintFunctionNames/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 825,
+				"parent" : 1
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "Loadable modules"
+	},
+	"id" : "PrintFunctionNames::@69b5d4540d7c5dbf8881",
+	"name" : "PrintFunctionNames",
+	"paths" : 
+	{
+		"build" : "examples/PrintFunctionNames",
+		"source" : "examples/PrintFunctionNames"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

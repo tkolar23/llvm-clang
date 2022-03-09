@@ -1,0 +1,750 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/CMakeFiles/3.21.21080301-MSVC_2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/CMakeFiles/3.21.21080301-MSVC_2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/CMakeFiles/3.21.21080301-MSVC_2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/CMakeFiles/3.21.21080301-MSVC_2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindLibXml2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMExports.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMExports-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVM-Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMDistributionSupport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMProcessSources.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/AddFileDependencies.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVM-Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/DetermineGCCCompatible.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/TableGen.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/HandleLLVMOptions.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/CheckCompilerVersion.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/HandleLLVMStdlib.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/DetermineGCCCompatible.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMCheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMProcessSources.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/AddFileDependencies.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/ChooseMSVCCRT.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/VersionFromVCS.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/GetErrcMessages.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMDistributionSupport.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPython3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindLibXml2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"path" : "include/clang/Basic/Version.inc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "cmake/modules/AddClang.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMDistributionSupport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMConfigExtensions.cmake"
+		},
+		{
+			"path" : "include/clang/Config/config.h.cmake"
+		},
+		{
+			"path" : "utils/TableGen/CMakeLists.txt"
+		},
+		{
+			"path" : "include/CMakeLists.txt"
+		},
+		{
+			"path" : "include/clang/CMakeLists.txt"
+		},
+		{
+			"path" : "include/clang/AST/CMakeLists.txt"
+		},
+		{
+			"path" : "include/clang/Basic/CMakeLists.txt"
+		},
+		{
+			"path" : "include/clang/Driver/CMakeLists.txt"
+		},
+		{
+			"path" : "include/clang/Parse/CMakeLists.txt"
+		},
+		{
+			"path" : "include/clang/Sema/CMakeLists.txt"
+		},
+		{
+			"path" : "include/clang/Serialization/CMakeLists.txt"
+		},
+		{
+			"path" : "include/clang/StaticAnalyzer/Checkers/CMakeLists.txt"
+		},
+		{
+			"path" : "include/clang/Tooling/Syntax/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Headers/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Basic/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/APINotes/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Lex/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Parse/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/AST/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ASTMatchers/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ASTMatchers/Dynamic/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/CrossTU/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Sema/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/CodeGen/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Analysis/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Analysis/plugins/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Analysis/FlowSensitive/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Edit/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Rewrite/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ARCMigrate/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Driver/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Serialization/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Frontend/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Frontend/Rewrite/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/FrontendTool/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Tooling/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Tooling/Core/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Tooling/Inclusions/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Tooling/Refactoring/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Tooling/ASTDiff/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Tooling/DumpTool/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Tooling/Syntax/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Tooling/DependencyScanning/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Tooling/Transformer/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/DirectoryWatcher/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"path" : "lib/Index/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/IndexSerialization/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/StaticAnalyzer/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/StaticAnalyzer/Core/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/StaticAnalyzer/Checkers/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/StaticAnalyzer/Frontend/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Format/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Testing/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Interpreter/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/diagtool/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/driver/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/apinotes-test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-diff/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-format/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-format-vs/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-fuzzer/handle-cxx/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-fuzzer/handle-llvm/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-import-test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-nvlink-wrapper/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-offload-bundler/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-offload-wrapper/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-scan-deps/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-repl/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/c-index-test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-rename/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-refactor/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/arcmt-test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/c-arcmt-test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-check/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/clang-extdef-mapping/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/scan-build/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "tools/scan-build-py/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/scan-view/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/libclang/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/amdgpu-arch/CMakeLists.txt"
+		},
+		{
+			"path" : "runtime/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "examples/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/PrintFunctionNames/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/AnnotateFunctions/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Attribute/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/CallSuperAttribute/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/PluginsOrder/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVMDistributionSupport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/Tom/projects/llvm-project/cmake/Modules/FindPrefixFromConfig.cmake"
+		},
+		{
+			"path" : "cmake/modules/ClangConfig.cmake.in"
+		},
+		{
+			"path" : "cmake/modules/ClangConfig.cmake.in"
+		},
+		{
+			"path" : "utils/hmaptool/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/Tom/projects/llvm-project/clang/out/build/Ninja-Release",
+		"source" : "C:/Users/Tom/projects/llvm-project/clang"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

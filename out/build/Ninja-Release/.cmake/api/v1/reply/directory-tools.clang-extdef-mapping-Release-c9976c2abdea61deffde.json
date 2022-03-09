@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_tool"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddClang.cmake",
+			"tools/clang-extdef-mapping/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clang-extdef-mapping",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/clang-extdef-mapping.exe"
+			],
+			"targetId" : "clang-extdef-mapping::@05bb14b66d10b1988c43",
+			"targetIndex" : 84,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang-extdef-mapping",
+		"source" : "tools/clang-extdef-mapping"
+	}
+}

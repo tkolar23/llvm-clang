@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddClang.cmake",
+			"lib/ARCMigrate/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangARCMigrate",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/clangARCMigrate.lib"
+			],
+			"targetId" : "clangARCMigrate::@2c37574e4a8206ad281e",
+			"targetIndex" : 102,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/ARCMigrate",
+		"source" : "lib/ARCMigrate"
+	}
+}

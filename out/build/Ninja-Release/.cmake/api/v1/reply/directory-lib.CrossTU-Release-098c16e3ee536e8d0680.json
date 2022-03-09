@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddClang.cmake",
+			"lib/CrossTU/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangCrossTU",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/clangCrossTU.lib"
+			],
+			"targetId" : "clangCrossTU::@9ef9db69267b91ac6e68",
+			"targetIndex" : 109,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/CrossTU",
+		"source" : "lib/CrossTU"
+	}
+}

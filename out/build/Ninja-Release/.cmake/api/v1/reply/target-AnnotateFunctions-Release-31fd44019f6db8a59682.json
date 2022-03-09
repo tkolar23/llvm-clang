@@ -1,0 +1,47 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_llvm_library"
+		],
+		"files" : 
+		[
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake",
+			"examples/AnnotateFunctions/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 825,
+				"parent" : 1
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "Loadable modules"
+	},
+	"id" : "AnnotateFunctions::@1163a6da2c7267bf7d1c",
+	"name" : "AnnotateFunctions",
+	"paths" : 
+	{
+		"build" : "examples/AnnotateFunctions",
+		"source" : "examples/AnnotateFunctions"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddClang.cmake",
+			"lib/StaticAnalyzer/Checkers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangStaticAnalyzerCheckers",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/clangStaticAnalyzerCheckers.lib"
+			],
+			"targetId" : "clangStaticAnalyzerCheckers::@63db905622e590fa9fc5",
+			"targetIndex" : 129,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/StaticAnalyzer/Checkers",
+		"source" : "lib/StaticAnalyzer/Checkers"
+	}
+}

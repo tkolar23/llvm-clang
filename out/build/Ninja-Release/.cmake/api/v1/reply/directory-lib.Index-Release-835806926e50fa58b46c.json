@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddClang.cmake",
+			"lib/Index/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangIndex",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/clangIndex.lib"
+			],
+			"targetId" : "clangIndex::@ddad0bfbd51798ee53ef",
+			"targetIndex" : 120,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/Index",
+		"source" : "lib/Index"
+	}
+}

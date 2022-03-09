@@ -1,0 +1,268 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "omp_gen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ClangAttrImpl::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangAttrClasses::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangAttrTextDump::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangCommentHTMLNamedCharacterReferences::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangCommentNodes::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangDiagnosticAnalysis::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangCommentCommandInfo::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangARMCdeBuiltinSema::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangCommentCommandList::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangARMMveBuiltinAliases::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangDiagnosticIndexName::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangDiagnosticFrontend::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangCommentHTMLTagsProperties::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangAbstractBasicWriter::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangStmtNodes::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangAbstractBasicReader::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangCommentHTMLTags::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "StmtDataCollectors::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangAttrVisitor::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangDeclNodes::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangAttrTraverse::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangDiagnosticComment::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangAbstractTypeReader::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangAbstractTypeWriter::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangDiagnosticAST::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangTypeNodes::@fe2410e106519ca983ad"
+		},
+		{
+			"id" : "ClangDiagnosticLex::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangDiagnosticCommon::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangDiagnosticCrossTU::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangAttrHasAttributeImpl::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangDiagnosticDriver::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangDiagnosticRefactoring::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangDiagnosticSerialization::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangAttrList::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangAttrSubjectMatchRuleList::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMNeon::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangDiagnosticSema::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMMveBuiltinCG::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMMveBuiltinSema::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMSveTypeFlags::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMSveSemaRangeChecks::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMMveBuiltinsDef::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMCdeBuiltinAliases::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMCdeBuiltinsDef::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangDiagnosticGroups::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMCdeBuiltinCG::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangRISCVVectorBuiltins::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMSveBuiltins::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMSveBuiltinCG::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangDiagnosticParse::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangARMFP16::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangAttrSpellingListIndex::@cac572117984882b982d"
+		},
+		{
+			"id" : "ClangAttrParsedAttrImpl::@cac572117984882b982d"
+		},
+		{
+			"id" : "ClangAttrParserStringSwitches::@ffbd728680521c84e319"
+		},
+		{
+			"id" : "ClangAttrSubMatchRulesParserStringSwitches::@ffbd728680521c84e319"
+		},
+		{
+			"id" : "ClangAttrTemplateInstantiate::@cac572117984882b982d"
+		},
+		{
+			"id" : "ClangAttrParsedAttrList::@cac572117984882b982d"
+		},
+		{
+			"id" : "ClangAttrParsedAttrKinds::@cac572117984882b982d"
+		},
+		{
+			"id" : "ClangRISCVVectorBuiltinCG::@ce0d9faf62f8f9b29ad6"
+		},
+		{
+			"id" : "ClangSyntaxNodeClasses::@69f35ed3039e83c856d1"
+		},
+		{
+			"id" : "ClangSyntaxNodeList::@69f35ed3039e83c856d1"
+		},
+		{
+			"id" : "ClangAttrPCHRead::@ad04593d1f0c0d91991a"
+		},
+		{
+			"id" : "ClangAttrPCHWrite::@ad04593d1f0c0d91991a"
+		},
+		{
+			"id" : "ClangSACheckers::@65bc54fe7d71ac21e773"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Misc"
+	},
+	"id" : "clang-tablegen-targets::@6890427a1f51a3e7e1df",
+	"name" : "clang-tablegen-targets",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/CMakeFiles/clang-tablegen-targets",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/CMakeFiles/clang-tablegen-targets.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_tool"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddClang.cmake",
+			"tools/clang-scan-deps/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clang-scan-deps",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/clang-scan-deps.exe"
+			],
+			"targetId" : "clang-scan-deps::@023f917e16166df8525b",
+			"targetIndex" : 98,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang-scan-deps",
+		"source" : "tools/clang-scan-deps"
+	}
+}

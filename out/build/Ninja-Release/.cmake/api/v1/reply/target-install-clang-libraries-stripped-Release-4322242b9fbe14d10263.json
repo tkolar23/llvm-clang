@@ -1,0 +1,492 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_llvm_install_targets",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 589,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 736,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 747,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "clang-libraries::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "install-clangAPINotes-stripped::@33850cab6da4f09e3350"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "install-clangLex-stripped::@0e998c9fad576c72291e"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "install-clangBasic-stripped::@7e621cac8c588f7ffb57"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "install-clangAST-stripped::@c80eb5e9fa4fb9ab07bc"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "install-clangParse-stripped::@fa4c3ce477f876cb8957"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "install-clangDynamicASTMatchers-stripped::@f1d1ef34304908c046d6"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "install-clangASTMatchers-stripped::@279d3a81a13036599e15"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "install-clangCrossTU-stripped::@9ef9db69267b91ac6e68"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "install-clangCodeGen-stripped::@47ff7fadf09d83e77685"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "install-clangSema-stripped::@f38d7dc148d4b2b8fdb2"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "install-clangAnalysis-stripped::@a8ea8fd451b56fad3c5d"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "install-clangARCMigrate-stripped::@2c37574e4a8206ad281e"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "install-clangEdit-stripped::@b41f47089d9d1d544cd0"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "install-clangAnalysisFlowSensitive-stripped::@4867922911c96eb69245"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "install-clangRewrite-stripped::@c10d844429d8679b31f2"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "install-clangDriver-stripped::@aadc8320e76fd80710e5"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "install-clangRewriteFrontend-stripped::@fa9f6d3cace8622f377f"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "install-clangFrontend-stripped::@f3460d83975abd6e94e8"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "install-clangSerialization-stripped::@615434d8f1a937df5f21"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "install-clangFrontendTool-stripped::@9b084bc8b34040d23043"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "install-clangToolingCore-stripped::@ccb169fe9713570d1abb"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "install-clangTooling-stripped::@75186e86fcb49a20063b"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "install-clangToolingInclusions-stripped::@eb71fd42f4d7f05cc61f"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "install-clangToolingSyntax-stripped::@953afa0f158150fd77ae"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "install-clangToolingASTDiff-stripped::@a3e86b1cfca87b8af349"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "install-clangToolingRefactoring-stripped::@3bc60ef6964a33db636d"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "install-clangDependencyScanning-stripped::@6d8cb3c4f83de96b05c5"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "install-clangStaticAnalyzerFrontend-stripped::@1696e3e9e01a4871a36e"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "install-clangStaticAnalyzerCheckers-stripped::@63db905622e590fa9fc5"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "install-clangStaticAnalyzerCore-stripped::@6e044d8cad34ce3ec3c7"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "install-clangTesting-stripped::@1b01c3ee34f9e70a8ecd"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "install-clangInterpreter-stripped::@64a505ee762a48178382"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "install-clangFormat-stripped::@5c282c5cb4a59524b57a"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "install-clangTransformer-stripped::@0786ebd6e17d8cce43f2"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "install-clangDirectoryWatcher-stripped::@83b05367adfb314c7d2d"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "install-clangIndex-stripped::@ddad0bfbd51798ee53ef"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "install-clangIndexSerialization-stripped::@3e8c819bc3a4a3378dbf"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "install-clangHandleLLVM-stripped::@d98dc8863405d101b78b"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "install-clangHandleCXX-stripped::@d34162dc143cc0f06ad6"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "install-libclang-stripped::@d8c77ec02cb7418262ac"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Component Install Targets (Stripped)"
+	},
+	"id" : "install-clang-libraries-stripped::@6890427a1f51a3e7e1df",
+	"name" : "install-clang-libraries-stripped",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/CMakeFiles/install-clang-libraries-stripped",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/Ninja-Release/CMakeFiles/install-clang-libraries-stripped.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddClang.cmake",
+			"lib/FrontendTool/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangFrontendTool",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/clangFrontendTool.lib"
+			],
+			"targetId" : "clangFrontendTool::@9b084bc8b34040d23043",
+			"targetIndex" : 117,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/FrontendTool",
+		"source" : "lib/FrontendTool"
+	}
+}

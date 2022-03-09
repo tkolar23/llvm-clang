@@ -1,0 +1,511 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/clang-nvlink-wrapper.exe"
+		},
+		{
+			"path" : "bin/clang-nvlink-wrapper.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_llvm_executable",
+			"add_clang_executable",
+			"install",
+			"link_directories",
+			"target_link_libraries",
+			"explicit_llvm_config",
+			"llvm_config",
+			"add_dependencies",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/AddLLVM.cmake",
+			"cmake/modules/AddClang.cmake",
+			"tools/clang-nvlink-wrapper/CMakeLists.txt",
+			"CMakeLists.txt",
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/LLVM-Config.cmake",
+			"C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/lib/cmake/llvm/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 895,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 124,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 942,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 95,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 107,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 944,
+				"parent" : 2
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 917,
+				"parent" : 2
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 12
+			},
+			{
+				"command" : 12,
+				"file" : 3,
+				"line" : 110,
+				"parent" : 5
+			},
+			{
+				"file" : 5,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 454,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 443,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 378,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 465,
+				"parent" : 5
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 377,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 904,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 905,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 906,
+				"parent" : 15
+			},
+			{
+				"command" : 13,
+				"file" : 3,
+				"line" : 420,
+				"parent" : 5
+			},
+			{
+				"command" : 13,
+				"file" : 3,
+				"line" : 123,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Zc:strictStrings /Oi /Zc:rvalueCast /bigobj /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG"
+				},
+				{
+					"fragment" : " /EHs-c- /GR-"
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 13,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_CRT_NONSTDC_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_HAS_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_LARGEFILE_SOURCE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_SCL_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/Users/Tom/projects/llvm-project/clang/out/build/Ninja-Release/tools/clang-nvlink-wrapper"
+				},
+				{
+					"path" : "C:/Users/Tom/projects/llvm-project/clang/tools/clang-nvlink-wrapper"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/Tom/projects/llvm-project/clang/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/Tom/projects/llvm-project/clang/out/build/Ninja-Release/include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/Tom/projects/llvm-project/llvm/out/install/Release/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 11,
+			"id" : "clang-tablegen-targets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "clangBasic::@7e621cac8c588f7ffb57"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Clang executables"
+	},
+	"id" : "clang-nvlink-wrapper::@2288dd72d2616541c76f",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/Tom/projects/llvm-project/clang/out/install/Ninja-Release"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS   /Zc:inline /Zc:__cplusplus /Zc:strictStrings /Oi /Zc:rvalueCast /bigobj /W4 -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /O2 /Ob2 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:X86 /STACK:10000000 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-LIBPATH:C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMBitWriter.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMCore.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMObject.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMSupport.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "lib\\clangBasic.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMAnalysis.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMProfileData.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMDebugInfoDWARF.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMObject.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMBitReader.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMCore.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMRemarks.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMBitstreamReader.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMMCParser.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMTextAPI.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMMC.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMBinaryFormat.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMDebugInfoCodeView.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMSupport.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "psapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "shell32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ole32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "uuid.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "advapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "delayimp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-delayload:shell32.dll",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-delayload:ole32.dll",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Users\\Tom\\projects\\llvm-project\\llvm\\out\\install\\Release\\lib\\LLVMDemangle.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "clang-nvlink-wrapper",
+	"nameOnDisk" : "clang-nvlink-wrapper.exe",
+	"paths" : 
+	{
+		"build" : "tools/clang-nvlink-wrapper",
+		"source" : "tools/clang-nvlink-wrapper"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "tools/clang-nvlink-wrapper/ClangNvlinkWrapper.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddClang.cmake",
+			"lib/Frontend/Rewrite/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangRewriteFrontend",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/clangRewriteFrontend.lib"
+			],
+			"targetId" : "clangRewriteFrontend::@fa9f6d3cace8622f377f",
+			"targetIndex" : 126,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/Frontend/Rewrite",
+		"source" : "lib/Frontend/Rewrite"
+	}
+}
